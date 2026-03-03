@@ -19,4 +19,5 @@ class Enemigo:
 
             def atacar(self):
                 print(f"{self.__tipo_enemigo}ataca con un {self.ataque}")
+                
         pass

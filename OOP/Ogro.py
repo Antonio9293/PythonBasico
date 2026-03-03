@@ -7,3 +7,10 @@ class Ogro(Enemigo):
 
     def habla(self):
         print("¡Ogro aplastar todo!!!")
+
+    def ataque_especial(self):
+        print("Ogro ataque especial")
+    funciona_ataque_especial = random.random() < 0.50
+    if funciona_ataque_especial:
+        self.puntos_energia += 2
+        print("Zombie ha regenardo su energia con 2HP!")
